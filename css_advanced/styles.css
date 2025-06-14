@@ -1,0 +1,271 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  background-color: #121629;
+}
+
+/* Navigation */
+#Navbar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+
+#Navbar nav img {
+  height: 40px;
+}
+
+#Navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+#Navbar nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Banner */
+.banner {
+  height: 100vh;
+  background: url('./images/Object.png') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.firstBlock h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.firstBlock span {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #c271ff;
+  font-size: 1.2rem;
+}
+
+.firstBlock button {
+  margin-top: 30px;
+  padding: 12px 30px;
+  background-color: #c271ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Mentor Profiles */
+.mentors {
+  background-color: #071629;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.mentors h2 {
+  color: #c271ff;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.profiles img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profiles h3 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.profiles p {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+/* Quote Section */
+.quote {
+  background-color: #c271ff;
+  display: flex;
+  align-items: center;
+  padding: 60px 40px;
+  color: white;
+}
+
+.quote img {
+  width: 120px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.quote blockquote {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Tutorials Section */
+.videoplays {
+  background-color: white;
+  color: #071629;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.videoplays h2 {
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.video {
+  display: inline-block;
+  width: 220px;
+  margin: 20px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.video img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.video h3 {
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+}
+
+.video p {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.author img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.stars {
+  color: #c271ff;
+  margin: 5px 0;
+}
+
+/* Free Membership */
+.membership {
+  background-color: #071629;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.membership h2 {
+  color: #c271ff;
+  margin-bottom: 40px;
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.benefits div {
+  max-width: 200px;
+}
+
+.membership button {
+  margin-top: 30px;
+  background: #c271ff;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+/* FAQ Section */
+.faq {
+  background-color: white;
+  color: #071629;
+  padding: 60px 40px;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.faq-blocks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.faq-item {
+  flex: 1;
+  min-width: 200px;
+}
+
+.faq-item h3 {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #071629;
+  padding: 40px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer-left img {
+  height: 30px;
+}
+
+.footer-right i {
+  margin-left: 20px;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+
