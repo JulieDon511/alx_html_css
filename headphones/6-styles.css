@@ -1,0 +1,73 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #071629;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.results-text {
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.results-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.results-text p {
+  font-size: 1rem;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.pentagon-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.pentagon {
+  width: 140px;
+  height: 140px;
+  background-color: #FF6565;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.percent {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+
+.label {
+  font-size: 0.85rem;
+  color: white;
+  margin-top: 5px;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .pentagon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .percent {
+    font-size: 1.2rem;
+  }
+
+  .label {
+    font-size: 0.75rem;
+  }
+}

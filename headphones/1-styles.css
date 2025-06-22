@@ -1,0 +1,54 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #fff;
+  color: #071629;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.what-we-do h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.feature {
+  max-width: 200px;
+}
+
+.feature img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+}
