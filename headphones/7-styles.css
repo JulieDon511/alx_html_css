@@ -1,0 +1,80 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #071629;
+  color: white;
+  margin: 0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* WHAT WE DO */
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.service-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-item {
+  background: #0a1c33;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 15px rgba(255, 101, 101, 0.3);
+}
+
+/* OUR RESULTS */
+.results h2 {
+  font-size: 2rem;
+  margin: 60px 0 30px;
+}
+
+.results-pentagons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.pentagon {
+  width: 120px;
+  height: 120px;
+  background-color: #FF6565;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.pentagon:hover {
+  transform: rotate(5deg) scale(1.1);
+}
+
+.pentagon span {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.pentagon p {
+  margin: 5px 0 0;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .service-items,
+  .results-pentagons {
+    flex-direction: column;
+    align-items: center;
+  }
+}

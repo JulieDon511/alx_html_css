@@ -33,6 +33,7 @@ body {
 .feature img {
   width: 50px;
   margin-bottom: 10px;
+  fill: rgb(232, 77, 20);
 }
 
 .feature h3 {
